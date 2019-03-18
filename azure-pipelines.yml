@@ -33,7 +33,7 @@ steps:
 #   displayName: 'Install Apple Provisioning Profile'
 
 - script: |
-    cd android
+    cd AwesomeRNApp/AwesomeRNApp/
     bundle install
-    fastlane build
+    fastlane buildAndroid
   displayName: 'Build android'

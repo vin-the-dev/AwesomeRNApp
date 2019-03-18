@@ -1,0 +1,10 @@
+lane :buildAndroid do 
+    begin
+        
+        gradle(task: 'clean', project_dir: 'android/')
+        gradle(task: 'assemble', build_type: 'Release', project_dir: 'android/')
+
+    rescue => ex
+        UI.error ex
+    end
+end
