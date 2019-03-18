@@ -36,5 +36,5 @@ steps:
     cd AwesomeRNApp/AwesomeRNApp/
     yarn
     bundle install
-    fastlane buildAndroid
+    bunde exec fastlane buildAndroid
   displayName: 'Build android'
