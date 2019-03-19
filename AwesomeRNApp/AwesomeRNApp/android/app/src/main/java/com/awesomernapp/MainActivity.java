@@ -1,4 +1,4 @@
-package com.awesomernapp;
+package com.naico.awesomernapp;
 
 import com.facebook.react.ReactActivity;
 

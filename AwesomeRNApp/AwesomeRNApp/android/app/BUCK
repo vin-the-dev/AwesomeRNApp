@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.awesomernapp",
+    package = "com.naico.awesomernapp",
 )
 
 android_resource(
     name = "res",
-    package = "com.awesomernapp",
+    package = "com.naico.awesomernapp",
     res = "src/main/res",
 )
 

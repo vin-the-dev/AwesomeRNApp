@@ -1,0 +1,3 @@
+json_key_file "fastlane/key.json"
+
+package_name "com.naico.awesomernapp"
