@@ -11,7 +11,7 @@ lane :buildAndroid do
             }
         )
 
-        upload_to_play_store(track: 'beta')
+        # upload_to_play_store(track: 'internal')
 
     rescue => ex
         UI.error ex
