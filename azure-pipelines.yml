@@ -21,10 +21,10 @@ steps:
 - script: gem install rails && rails -v
   displayName: 'gem install rails'
 
-- script: |
-    CALL gem install bundler
-    bundle install --retry=3 --jobs=4
-  displayName: 'bundle install'
+# - script: |
+#     CALL gem install bundler
+#     bundle install --retry=3 --jobs=4
+#   displayName: 'bundle install'
 
 # - task: InstallAppleCertificate@2
 #   inputs:
