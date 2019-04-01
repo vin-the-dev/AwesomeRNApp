@@ -1,0 +1,24 @@
+# scheme("smartWarmer")
+# # scheme("testSample")
+
+# clean true
+
+# # project('./ios/testSample/testSample.xcodeproj')
+# workspace('./ios/smartWarmer.xcworkspace')
+
+# export_options({
+#     method: "ad-hoc",
+#     provisioningProfiles: { 
+#       "com.naico.smartWarmer" => "match AdHoc com.naico.smartWarmer",
+#     },
+#     manifest: {
+#       "appURL": "https://server.local/apps/smartWarmer.ipa",
+#       "displayImageURL": "https://server.local/apps/smartWarmer.png",
+#       "fullSizeImageURL": "https://server.local/apps/smartWarmer.png"
+#     }
+#   }
+# )
+
+# # sdk("iphoneos9.0")
+
+# output_directory("./iOSbuild")

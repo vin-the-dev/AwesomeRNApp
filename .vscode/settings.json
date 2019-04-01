@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "Fastfile": "ruby",
-        "Appfile": "ruby"
+        "Appfile": "ruby",
+        "Gymfile": "ruby"
     }
 }

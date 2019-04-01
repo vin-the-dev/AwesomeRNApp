@@ -13,6 +13,13 @@ lane :buildAndroid do
 
         # upload_to_play_store(track: 'internal')
 
+        cocoapods(
+            clean: true,
+            podfile: './ios/Podfile'
+        )
+
+        gym
+
     rescue => ex
         UI.error ex
     end

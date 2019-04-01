@@ -37,4 +37,5 @@ steps:
     yarn
     bundle install
     fastlane buildAndroid
-  displayName: 'Build android'
+    fastlane buildIOS
+  displayName: 'Build React native'
