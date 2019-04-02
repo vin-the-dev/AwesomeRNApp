@@ -44,6 +44,6 @@ steps:
     cd AwesomeRNApp/AwesomeRNApp/
     yarn
     bundle install
-    budle exec fastlane buildAndroid
+    bundle exec fastlane buildAndroid
     # fastlane buildIOS
   displayName: 'Build React native'
