@@ -40,7 +40,7 @@ steps:
 - task: InstallAppleProvisioningProfile@1
   inputs:
     provisioningProfileLocation: 'secureFiles'
-    provProfileSecureFile: 'AdHoc_com.naico.awesomernapp.mobileprovision'
+    provProfileSecureFile: 'match_AdHoc_comnaicoawesomernapp.mobileprovision'
   displayName: 'Install Apple Provisioning Profile'
 
 - script: |
