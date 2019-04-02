@@ -41,14 +41,7 @@ steps:
   inputs:
     provisioningProfileLocation: 'secureFiles'
     provProfileSecureFile: 'match_AdHoc_comnaicoawesomernapp.mobileprovision'
-  displayName: 'Install Apple Provisioning Profile 1'
-
-
-- task: InstallAppleProvisioningProfile@1
-  inputs:
-    provisioningProfileLocation: 'secureFiles'
-    provProfileSecureFile: 'AdHoc_com.naico.awesomernapp.mobileprovision'
-  displayName: 'Install Apple Provisioning Profile 2'
+  displayName: 'Install Apple Provisioning Profile'
 
 - script: |
     cd AwesomeRNApp/AwesomeRNApp/
