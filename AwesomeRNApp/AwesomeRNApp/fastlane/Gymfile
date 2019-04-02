@@ -8,7 +8,7 @@ workspace('./ios/AwesomeRNApp.xcworkspace')
 export_options({
     method: "ad-hoc",
     provisioningProfiles: { 
-      "com.naico.awesomernapp" => "match_AdHoc_comnaicoawesomernapp.mobileprovision",
+      "com.naico.awesomernapp" => "match_AdHoc_comnaicoawesomernapp",
     },
     manifest: {
       "appURL": "https://server.local/apps/awesomernapp.ipa",
