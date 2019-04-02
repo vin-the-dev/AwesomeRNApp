@@ -26,19 +26,19 @@ steps:
 #     bundle install --retry=3 --jobs=4
 #   displayName: 'bundle install'
 
-# - task: InstallAppleCertificate@2
-#   inputs:
-#     certSecureFile: AppleDeveloperCertificate.p12
-#     certPwd: $(P12password)
-#     keychain: 'temp'
-#     deleteCert: true
-#   displayName: Install Apple Certificate
+- task: InstallAppleCertificate@2
+  inputs:
+    certSecureFile: LWW88S6HQG.p12
+    certPwd: $(P12password)
+    keychain: 'temp'
+    deleteCert: true
+  displayName: Install Apple Certificate
   
-# - task: InstallAppleProvisioningProfile@1
-#   inputs:
-#     provisioningProfileLocation: 'secureFiles'
-#     provProfileSecureFile: 'AppleProvisioningProfile.mobileprovision'
-#   displayName: 'Install Apple Provisioning Profile'
+- task: InstallAppleProvisioningProfile@1
+  inputs:
+    provisioningProfileLocation: 'secureFiles'
+    provProfileSecureFile: 'AdHoc_com.naico.awesomernapp.mobileprovision'
+  displayName: 'Install Apple Provisioning Profile'
 
 - script: |
     cd AwesomeRNApp/AwesomeRNApp/
