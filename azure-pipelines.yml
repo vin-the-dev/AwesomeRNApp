@@ -29,7 +29,7 @@ steps:
 - task: InstallAppleCertificate@2
   inputs:
     certSecureFile: 38805573-ce99-412e-a552-2d0cb6f207fc
-    # certPwd: $(P12password)
+    certPwd: $(P12password)
     keychain: 'temp'
     deleteCert: true
   displayName: Install Apple Certificate
