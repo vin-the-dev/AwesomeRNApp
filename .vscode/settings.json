@@ -2,6 +2,7 @@
     "files.associations": {
         "Fastfile": "ruby",
         "Appfile": "ruby",
-        "Gymfile": "ruby"
+        "Gymfile": "ruby",
+        "Pluginfile": "ruby"
     }
 }

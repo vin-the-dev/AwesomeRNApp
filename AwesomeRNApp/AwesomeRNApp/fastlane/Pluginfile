@@ -1,0 +1,2 @@
+
+gem 'fastlane-plugin-upload_to_dropbox', git: 'https://github.com/vinbhai4u/fastlane-plugin-upload_to_dropbox'

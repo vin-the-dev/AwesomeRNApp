@@ -20,6 +20,14 @@ lane :buildAndroid do
 
         gym
 
+        upload_to_dropbox(
+            file_path: "./iOSbuild/manifest.plist",
+            dropbox_path: "/AwesomeRNApp",
+            app_key: '30pj8qrn6fg0n9m',
+            app_secret: '8vxko3iop0gdxhg',
+            keychain_password: 'vinu123'
+        )
+
     rescue => ex
         UI.error ex
     end
