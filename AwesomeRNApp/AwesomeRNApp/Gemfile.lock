@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/vinbhai4u/fastlane-plugin-upload_to_dropbox
-  revision: c53cb17342d07251892dd010fefa2a372bc472f2
+  revision: e50eb96e5b3db22934d8c770d975dbc3e5a40690
   specs:
     fastlane-plugin-upload_to_dropbox (0.1.0)
       dropbox_api (= 0.1.15)

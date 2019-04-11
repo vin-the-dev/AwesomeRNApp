@@ -25,7 +25,7 @@ lane :buildAndroid do
             dropbox_path: "/AwesomeRNApp",
             app_key: '30pj8qrn6fg0n9m',
             app_secret: '8vxko3iop0gdxhg',
-            keychain_password: 'vinu123'
+            access_token: 'BXQyOdcVsZAAAAAAAAAAFPqTsbmNgFDAzU-ShVf8Qi1_vOQXEpJl90AGRdZzgXdG'
         )
 
     rescue => ex
